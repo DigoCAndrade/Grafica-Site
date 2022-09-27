@@ -1,49 +1,57 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html lang="pt-Br" class="vh-100">
 <head>
     <meta charset="UTF-8">
     <title>Cadastrar - Impress</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
 </head>
-<body class="bg-light h-100 d-flex justify-content-center align-items-center">
-<a href="index.html" class="position-absolute d-flex align-items-center top-0 start-0 mt-3 ms-3 btn btn-dark rounded-pill"><i class="fa-solid fa-arrow-left me-2"></i>Voltar</a>
-<main class="w-100">
-    <section class="row row-cols-2 mx-auto w-75 shadow-lg">
-        <div class="col-6 p-5">
-            <h1>Crie sua conta</h1>
-            <p>Já possui uma conta? <a href="signin.html" class="text-decoration-none link-primary">Entrar</a></p>
-            <form class="mt-5" action="" method="get">
-                <label for="name" class="mb-1">Nome</label>
-                <div class="input-group mb-3">
-                    <input class="form-control py-2 border-end-0" type="text" name="" id="name" placeholder="Alessandro">
-                    <label for="name" class="input-group-text bg-transparent border-start-0"><i class="fa-solid fa-tag text-secondary"></i></label>
-                </div>
+<body class="bg-light vh-100 d-flex justify-content-center align-items-center">
+<a href="index.html"
+   class="position-absolute d-flex align-items-center top-0 start-0 mt-3 ms-3 btn btn-dark rounded-pill"><img
+        src="images/back-icon.png" class="me-2" style="height: 28px; width: 28px"> Voltar</a>
+<section class="col-9 row row-cols-md-2 row-cols-2 mx-auto shadow-lg">
+    <div class="col-md-6 col-12 p-5">
+        <h1>Crie sua conta</h1>
+        <p>Já possui uma conta? <a href="signin.html" class="text-decoration-none link-primary">Entrar</a></p>
+        <form class="mt-5" action="" method="get">
+            <label for="name" class="mb-1">Nome</label>
+            <div class="input-group mb-3">
+                <input class="form-control py-2 border-end-0" type="text" name="" id="name" placeholder="Alessandro">
+                <label for="name" class="input-group-text bg-transparent border-start-0"><img src="images/name-icon.png"
+                                                                                              alt=""
+                                                                                              style="height: 22px; width: 22px"></label>
+            </div>
 
-                <label for="email" class="mb-1">E-mail</label>
-                <div class="input-group mb-3">
-                    <input class="form-control py-2 border-end-0" type="email" name="" id="email" placeholder="exemplo@mail.com">
-                    <label for="email" class="input-group-text bg-transparent border-start-0"><i class="fa-solid fa-at text-secondary"></i></label>
-                </div>
+            <label for="email" class="mb-1">E-mail</label>
+            <div class="input-group mb-3">
+                <input class="form-control py-2 border-end-0" type="email" name="" id="email"
+                       placeholder="exemplo@mail.com">
+                <label for="email" class="input-group-text bg-transparent border-start-0"><img
+                        src="images/email-icon.png" alt="" style="height: 22px; width: 22px"></label>
+            </div>
 
-                <label for="password" class="mb-1">Senha</label>
-                <div class="input-group mb-3">
-                    <input class="form-control py-2 border-end-0" type="password" name="" id="password" placeholder="Crie uma senha">
-                    <label for="password" class="input-group-text bg-transparent border-start-0"><i class="fa-solid fa-lock text-secondary"></i></label>
-                </div>
+            <label for="password" class="mb-1">Senha</label>
+            <div class="input-group mb-3">
+                <input class="form-control py-2 border-end-0" type="password" name="" id="password"
+                       placeholder="Crie uma senha">
+                <label for="password" class="input-group-text bg-transparent border-start-0"><img
+                        src="images/password-icon.png" alt="" style="height: 22px; width: 22px"></label>
+            </div>
 
-                <label for="confirm-password" class="mb-1">Confirmar Senha</label>
-                <div class="input-group mb-3">
-                    <input class="form-control py-2 border-end-0" type="password" name="" id="confirm-password" placeholder="Confirme sua senha">
-                    <label for="confirm-password" class="input-group-text bg-transparent border-start-0"><i class="fa-solid fa-lock text-secondary"></i></label>
-                </div>
+            <label for="confirm-password" class="mb-1">Confirmar Senha</label>
+            <div class="input-group mb-3">
+                <input class="form-control py-2 border-end-0" type="password" name="" id="confirm-password"
+                       placeholder="Confirme sua senha">
+                <label for="confirm-password" class="input-group-text bg-transparent border-start-0"><img
+                        src="images/password-icon.png" alt="" style="height: 22px; width: 22px"></label>
+            </div>
 
-                <button type="submit" class="btn btn-dark mt-2 w-100 py-2">Criar Conta</button>
-            </form>
-        </div>
-        <div class="col-6 bg-black h-auto bg-gradient">
-        </div>
-    </section>
-</main>
+            <button type="submit" class="btn btn-dark mt-2 w-100 py-2">Criar Conta</button>
+        </form>
+    </div>
+    <div class="col-md-6 bg-black bg-gradient">
+    </div>
+</section>
 </body>
-<script src="https://kit.fontawesome.com/05fbba52ce.js" crossorigin="anonymous"></script>
+
 </html>

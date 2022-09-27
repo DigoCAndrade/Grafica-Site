@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+</head>
+<body class="h-100 d-flex">
+<nav class="h-100 navbar navbar-dark bg-dark navbar-expand-lg px-3">
+    <button class="navbar-toggler align-self-start mt-4" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mb-auto my-lg-auto px-lg-3" id="navbarSupportedContent">
+        <ul class="nav flex-column text-nowrap">
+            <li class="nav-item my-1"><a href="#" class="nav-link text-white d-flex align-items-center"><img
+                    src="images/store.png" alt="" style="width: 16px; height: 16px" class="me-2">Minha Loja</a></li>
+            <li class="nav-item my-1"><a href="estoque.html" class="nav-link text-white d-flex align-items-center"><img
+                    src="images/estoque.png" alt="" style="width: 16px; height: 16px" class="me-2">Estoque</a></li>
+            <li class="nav-item my-1"><a href="#" class="nav-link text-white d-flex align-items-center"><img
+                    src="images/pedidos.png" alt="" style="width: 16px; height: 16px" class="me-2">Pedidos</a></li>
+        </ul>
+    </div>
+</nav>
+<main class="container-fluid overflow-auto">
+    <section class="mx-auto mt-3 mt-md-5 col-10 row g-3 justify-content-lg-between">
+        <div class="col-12 col-md-6 col-lg-4 bg-black p-5 rounded-3 me-md-auto mx-lg-0">
+            <h3 class="mt-auto text-light h1 d-flex align-items-center justify-content-center"><img
+                    src="images/cart.png" alt="" class="me-2" style="height: 42px; width: 42px">16</h3>
+            <p class="mb-auto text-light text-center">Vendas</p>
+        </div>
+        <div class="col-12 col-md-5 col-lg-3 bg-black p-5 rounded-3">
+            <h3 class="mt-auto text-light h1 d-flex align-items-center justify-content-center"><img
+                    src="images/guard.png" alt="" class="me-2" style="height: 42px; width: 42px">2</h3>
+            <p class="mb-auto text-light text-center">Reclamações</p>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4 bg-black p-5 rounded-3">
+            <h3 class="mt-auto text-light h1 d-flex align-items-center justify-content-center"><span
+                    class="fs-5 mb-auto mt-1 me-1">R$</span> 3024,99</h3>
+            <p class="mb-auto text-light text-center">Vendidos</p>
+        </div>
+    </section>
+    <section class="mt-5 mx-auto col-10">
+        <h2>Dados da Loja</h2>
+        <hr>
+        <div class="row g-3">
+            <div class="col-2 col-lg-1">
+                <img class="rounded-pill w-100 h-auto" src="images/shop.png" alt="">
+            </div>
+            <div class="col-10 col-md-4 col-lg-5">
+                <form class="form-floating">
+                    <input type="text" class="form-control" id="name" placeholder="ImpressStore"
+                           value="ImpressStore">
+                    <label for="name">Nome</label>
+                </form>
+            </div>
+            <div class="col-md">
+                <form class="form-floating">
+                    <input type="email" class="form-control" id="email" placeholder="exempl o@mail.com"
+                           value="impressstore@gmail.com">
+                    <label for="email">E-mail</label>
+                </form>
+            </div>
+        </div>
+        <div class="mt-4 form-floating">
+            <textarea class="form-control" placeholder="Digite uma descrição para a sua loja." id="description"
+                      style="height: 120px"></textarea>
+            <label for="description">Descrição</label>
+        </div>
+        <button class="mt-3 btn btn-success" disabled>Salvar</button>
+    </section>
+</main>
+</body>
+<script src="Bootstrap/javascript/bootstrap.bundle.js"></script>
+</html>

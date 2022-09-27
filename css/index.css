@@ -1,0 +1,39 @@
+#signup_footer:hover {
+    color: black !important;
+}
+
+#developer {
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.teste {
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#b1, #b2, #b3 {
+    position: relative;
+}
+
+#b1:hover:after, #b2:hover:after, #b3:hover:after {
+    position: absolute;
+    content: "";
+    background-color: black;
+    bottom: -25%;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    animation: effect 1s;
+}
+
+@keyframes effect{
+    from {
+        width: 1%;
+    }
+
+    to {
+        width: 100%;
+    }
+}

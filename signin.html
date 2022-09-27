@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Cadastrar - Impress</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
 </head>
 <body class="bg-light h-100 d-flex justify-content-center align-items-center">
-<a href="index.html" class="position-absolute d-flex align-items-center top-0 start-0 mt-3 ms-3 btn btn-dark rounded-pill"><i class="fa-solid fa-arrow-left me-2"></i>Voltar</a>
+<a href="index.html" class="position-absolute d-flex align-items-center top-0 start-0 mt-3 ms-3 btn btn-dark rounded-pill"><img src="images/back-icon.png" class="me-2" style="height: 28px"> Voltar</a>
 <main class="w-100">
     <section class="row row-cols-1 mx-auto w-50 shadow-lg">
         <div class="col-12 p-5">
-            <h1>Entre em sua conta</h1>
+            <h1>Entre na sua conta</h1>
             <p>Ainda não tem uma conta? <a href="signup.html" class="text-decoration-none link-primary">Crie uma conta</a></p>
-            <form class="mt-5" action="" method="get">
+            <form class="mt-5" action="" method="GET">
                 <label for="email" class="mb-1">E-mail</label>
                 <div class="input-group mb-3">
                     <input class="form-control py-2 border-end-0" type="email" name="" id="email" placeholder="exemplo@mail.com">
-                    <label for="email" class="input-group-text bg-transparent border-start-0"><i class="fa-solid fa-at text-secondary"></i></label>
+                    <label for="email" class="input-group-text bg-transparent border-start-0 col-2" style="width: 44px"><img src="images/email-icon.png" alt="" class="w-100 h-100"></label>
                 </div>
 
                 <label for="password" class="mb-1">Senha</label>
                 <div class="input-group mb-3">
                     <input class="form-control py-2 border-end-0" type="password" name="" id="password" placeholder="Sua senha">
-                    <label for="password" class="input-group-text bg-transparent border-start-0"><i class="fa-solid fa-lock text-secondary"></i></label>
+                    <label for="password" class="input-group-text bg-transparent border-start-0" style="width: 44px"><img src="images/password-icon.png" alt="" class="w-100 h-100"></label>
                 </div>
 
                 <button type="submit" class="btn btn-dark mt-2 w-100 py-2">Entrar</button>
@@ -31,5 +31,4 @@
     </section>
 </main>
 </body>
-<script src="https://kit.fontawesome.com/05fbba52ce.js" crossorigin="anonymous"></script>
 </html>
